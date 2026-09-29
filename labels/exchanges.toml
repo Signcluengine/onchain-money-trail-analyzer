@@ -1,0 +1,51 @@
+# Address labels Ferret uses to name the end of a trail.
+#
+# Every label says where it came from and how sure it is. Ferret shows both
+# next to the label, because deposit addresses and clustering can be wrong.
+#
+# kind        exchange-deposit | exchange-hot | mixer | bridge | sanctioned | reported-scam
+# confidence  low | medium | high
+# source      where the label came from, in words a person can check
+# seen        how it was confirmed on-chain, if it was
+
+[[label]]
+entity = "Kestrel Exchange"
+kind = "exchange-hot"
+chain = "ethereum"
+address = "0x3f6e0a5c9d1b72e84f0c6a2d9b5e17c40a8d22f1"
+source = "Open labelled dataset, Sep 2026"
+confidence = "high"
+
+[[label]]
+entity = "Kestrel Exchange"
+kind = "exchange-deposit"
+chain = "ethereum"
+address = "0x8d039ea4b3b69c513d647c96d97811f886db41be"
+source = "Open labelled dataset, Sep 2026"
+seen = "3 sweeps into the Kestrel hot wallet above"
+confidence = "high"
+
+[[label]]
+entity = "Nimbus"
+kind = "exchange-deposit"
+chain = "tron"
+address = "TNm7eQ4cRv2PzK8sWb1xYh6LdJ3aUf9GkE"
+source = "Deposit sweep pattern"
+seen = "Swept to a known Nimbus hot wallet within 6 minutes, 41 times"
+confidence = "medium"
+
+[[label]]
+entity = "Orbita"
+kind = "exchange-hot"
+chain = "bitcoin"
+address = "bc1q8v3k2xw6m9rj4tqh5ez7ny0lp2fsd6ucg4kw8a"
+source = "Open labelled dataset, Jul 2026"
+confidence = "high"
+
+[[label]]
+entity = "Mixer"
+kind = "mixer"
+chain = "tron"
+address = "TMx3vkK6CD2sfQm7jSKLivyD8WDtNV7HwA"
+source = "Chainabuse reports (6)"
+confidence = "medium"
