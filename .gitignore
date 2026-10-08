@@ -1,0 +1,8 @@
+/target
+/app/dist
+/cases
+*.ferret
+.DS_Store
+
+# The Windows build is attached to each release, not committed.
+/release/
