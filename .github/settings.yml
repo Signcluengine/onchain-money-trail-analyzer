@@ -1,0 +1,8 @@
+# The GitHub "About" box. The Settings app (github.com/apps/settings) applies this
+# on every push; without it, copy the description and topics in by hand.
+# Upload .github/social-preview.png in Settings -> General -> Social preview.
+repository:
+  name: onchain-money-trail-analyzer
+  description: "Follow stolen crypto hop by hop across Bitcoin, Ethereum, TRON, BNB Chain and Solana. Labels where the money landed, keeps proof for every clue, writes the report."
+  topics: crypto, blockchain, usdt, tron, ethereum, bitcoin, tracing, osint
+  has_wiki: false
